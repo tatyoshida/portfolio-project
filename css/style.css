@@ -11,30 +11,29 @@ body {
   background: var(--background-color);
 }
 
-h1,
+h1 {
+  color: var(--primary-color);
+  font-size: 96px;
+  font-weight: 700;
+}
+
 h2,
 h3 {
   font-weight: 700;
   color: var(--secondary-color);
 }
 
-h1 {
-  color: var(--primary-color);
-  font-size: 96px;
-  line-height: 1.5;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
- font-size: 36px;
-}
-
 .hero {
   text-align: center;
   padding-top: 52px;
+}
+
+.hero h2 {
+  font-size: 24px;
+}
+
+.hero h3 {
+ font-size: 36px;
 }
 
 .contact {
@@ -47,10 +46,35 @@ h3 {
   border-radius: 50px;
 }
 
-.img-card {
-  background: var(--secondary-color);
+.card {
+  background: #2D2727;
+  color: var(--secondary-color);
+}
+.card image {
+  height: 600px;
 }
 
+main {
+  margin-top: 60px;
+}
+
+main h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+main h3 {
+  font-size: 64px;
+}
+main h4 {
+  color: var(--secondary-color);
+}
+.photo {
+  width: 90%;
+  border-radius: 6px;
+}
 
 @media(max-width: 900px) {
   h1 {
