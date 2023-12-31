@@ -34,7 +34,7 @@ h3 {
 
 .hero {
   text-align: center;
-  padding-top: 152px;
+  padding-top: 52px;
 }
 
 .contact {
@@ -43,12 +43,14 @@ h3 {
   padding: 18px 30px;
   background: var(--primary-color);
   color: var(--accent-color);
+  text-transform: uppercase;
   border-radius: 50px;
 }
 
-.card {
+.img-card {
   background: var(--secondary-color);
 }
+
 
 @media(max-width: 900px) {
   h1 {
