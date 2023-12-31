@@ -21,6 +21,7 @@ h3 {
 h1 {
   color: var(--primary-color);
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -45,3 +46,12 @@ h3 {
   border-radius: 50px;
 }
 
+.card {
+  background: var(--secondary-color);
+}
+
+@media(max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+}
