@@ -25,7 +25,7 @@ h3 {
 
 .hero {
   text-align: center;
-  padding-top: 52px;
+  padding: 72px 20px 40px;
 }
 
 .hero h2 {
@@ -36,9 +36,9 @@ h3 {
  font-size: 36px;
 }
 
-.contact {
+.btn {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 48px;
+  margin: 48px 0;
   padding: 18px 30px;
   background: var(--primary-color);
   color: var(--accent-color);
@@ -55,7 +55,7 @@ h3 {
 }
 
 main {
-  margin-top: 60px;
+  padding: 72px 20px;
 }
 
 main h2 {
@@ -68,16 +68,28 @@ main h2 {
 main h3 {
   font-size: 64px;
 }
+
 main h4 {
   color: var(--secondary-color);
+  font-size: 18px;
 }
+
+main p {
+  font-size: 16px;
+}
+
 .photo {
-  width: 90%;
+  width: 80%;
   border-radius: 6px;
 }
 
 @media(max-width: 900px) {
   h1 {
     font-size: 60px;
+  }
+}
+@media(max-width: 767px) {
+  main {
+    text-align: center;
   }
 }
