@@ -11,10 +11,6 @@ body {
   background: var(--background-color);
 }
 
-nav {
-  background: #212529;
-}
-
 .navbar-brand,
 .navbar a, 
 .nav-link.active {
