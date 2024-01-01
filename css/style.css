@@ -78,6 +78,10 @@ h3 {
   font-size: 16px;
 }
 
+.content-container a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
 .photo {
   border-radius: 6px;
 }
