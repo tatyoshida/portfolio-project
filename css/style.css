@@ -11,6 +11,22 @@ body {
   background: var(--background-color);
 }
 
+nav {
+  background: #212529;
+}
+
+.navbar-brand,
+.navbar a, 
+.nav-link.active{
+  color:var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.nav-link.active:hover,
+.navbar a:hover {
+  color: var(--accent-color);
+}
+
 h1 {
   color: var(--primary-color);
   font-size: 96px;
