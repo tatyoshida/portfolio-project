@@ -17,7 +17,7 @@ nav {
 
 .navbar-brand,
 .navbar a, 
-.nav-link.active{
+.nav-link.active {
   color:var(--secondary-color);
   transition: all 100ms ease-in-out;
 }
@@ -54,12 +54,15 @@ h3 {
 
 .btn {
   font-family: 'Montserrat', sans-serif;
-  margin: 48px 0;
   padding: 18px 30px;
   background: var(--primary-color);
   color: var(--accent-color);
   text-transform: uppercase;
   border-radius: 50px;
+}
+
+.btn:hover {
+  background: var(--accent-color);
 }
 
 .card {
@@ -81,10 +84,12 @@ h3 {
   font-size: 24px;
 }
 
+.footer-content,
 .content-container h3 {
   font-size: 64px;
 }
 
+.footer-content,
 .content-container h4 {
   color: var(--secondary-color);
   font-size: 18px;
@@ -100,6 +105,37 @@ h3 {
 }
 .photo {
   border-radius: 6px;
+}
+
+.contact-box {
+  border-radius: 20px;
+  background: #2D2727;
+  padding: 30px 120px;
+}
+
+footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer a:hover {
+  color: var(--accent-color);
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: var(--accent-color);
+  background: var(--secondary-color)
 }
 
 @media(max-width: 900px) {
