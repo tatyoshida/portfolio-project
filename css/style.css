@@ -152,7 +152,7 @@ footer p a {
   .content-container {
     text-align: center;
   }
-  ..content-container h3 {
+  .content-container h3 {
     font-size: 44px;
   }
 }
